@@ -10,4 +10,9 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   base: '/oc-beslisboom/', // naam van je repo, met / eromheen
 });
+export default defineConfig({
+  base: "/<repository-naam>/", // vervang met de naam van je GitHub repo
+  plugins: [react()],
+});
+
 
