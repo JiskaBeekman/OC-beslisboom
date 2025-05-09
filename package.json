@@ -28,5 +28,4 @@
   "preview": "vite preview",
   "deploy": "gh-pages -d dist"
 }
-npm run build
-npm run deploy
+
