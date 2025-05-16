@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "homepage": "https://JiskaBeekman.github.io/OC-beslisboom",
   "scripts": {
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d dist"
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
