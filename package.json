@@ -1,7 +1,7 @@
 {
-  "name": "oc-beslisboom",
+  "name": "OC-beslisboom",
   "version": "1.0.0",
-  "homepage": "https://JiskaBeekman.github.io/oc-beslisboom",
+  "homepage": "https://JiskaBeekman.github.io/OC-beslisboom",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
