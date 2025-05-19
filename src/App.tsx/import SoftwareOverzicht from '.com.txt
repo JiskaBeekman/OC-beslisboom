@@ -1,0 +1,12 @@
+import SoftwareOverzicht from './components/SoftwareOverzicht';
+
+function App() {
+  return (
+    <div className="App">
+      <h1>OC Beslisboom</h1>
+      <SoftwareOverzicht />
+    </div>
+  );
+}
+
+export default App;

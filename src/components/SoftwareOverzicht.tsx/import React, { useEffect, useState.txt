@@ -1,0 +1,54 @@
+import React, { useEffect, useState } from 'react';
+
+type SoftwareItem = {
+  naam: string;
+  fabrikant: string;
+  type: string;
+  platform: string;
+  licentie: string;
+  gebruikersniveau: string;
+  ondersteuning: string;
+  kenmerken: string[];
+};
+
+const SoftwareOverzicht = () => {
+  const [data, setData] = useState<SoftwareItem[]>([]);
+
+ useEffect(() => {
+  fetch('/OC-beslisboom/softwaredata.json')
+    .then((res) => {
+      console.log('Laden gelukt:', res.ok);
+      return res.json();
+    })
+    .then((data) => {
+      console.log('Data ontvangen:', data);
+      setData(data);
+    })
+    .catch((err) => {
+      console.error('Fout bij laden:', err);
+    });
+}, []);
+
+  return (
+    <div>
+      <h2>Software Overzicht</h2>
+      {data.map((item, index) => (
+        <div key={index} style={{ border: '1px solid #ccc', marginBottom: '1rem', padding: '1rem' }}>
+          <h3>{item.naam}</h3>
+          <p><strong>Fabrikant:</strong> {item.fabrikant}</p>
+          <p><strong>Type:</strong> {item.type}</p>
+          <p><strong>Platform:</strong> {item.platform}</p>
+          <p><strong>Licentie:</strong> {item.licentie}</p>
+          <p><strong>Gebruikersniveau:</strong> {item.gebruikersniveau}</p>
+          <p><strong>Ondersteuning:</strong> {item.ondersteuning}</p>
+          <p><strong>Kenmerken:</strong></p>
+          <ul>
+            {item.kenmerken.map((k, i) => <li key={i}>{k}</li>)}
+          </ul>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default SoftwareOverzicht;
