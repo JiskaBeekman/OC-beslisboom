@@ -15,7 +15,7 @@ const SoftwareOverzicht = () => {
   const [data, setData] = useState<SoftwareItem[]>([]);
 
  useEffect(() => {
-  fetch('/OC-beslisboom/softwaredata.json')
+  fetch('/softwaredata.json') // Relatief pad
     .then((res) => {
       console.log('Laden gelukt:', res.ok);
       return res.json();
