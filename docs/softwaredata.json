@@ -1,0 +1,72 @@
+[
+  {
+    "naam": "OCMate",
+    "fabrikant": "Kentalis",
+    "type": "Software",
+    "platform": "Windows, Web",
+    "licentie": "Gratis voor Kentalis-gebruikers",
+    "gebruikersniveau": "Beginnersvriendelijk",
+    "ondersteuning": "Handleidingen, training via Kentalis",
+    "kenmerken": [
+      "Gebruiksvriendelijk",
+      "Visuele structuur",
+      "Geschikt voor OC-beslissingen"
+    ]
+  },
+  {
+    "naam": "MindExpress",
+    "fabrikant": "Jabbla",
+    "type": "Software",
+    "platform": "Windows",
+    "licentie": "Betaald",
+    "gebruikersniveau": "Gevorderd",
+    "ondersteuning": "Handleidingen, video's",
+    "kenmerken": [
+      "Flexibele communicatie-oplossingen",
+      "Vele sjablonen",
+      "Bruikbaar met oogbesturing"
+    ]
+  },
+  {
+    "naam": "Grid 3",
+    "fabrikant": "Smartbox",
+    "type": "Software",
+    "platform": "Windows",
+    "licentie": "Betaald",
+    "gebruikersniveau": "Gevorderd",
+    "ondersteuning": "Online cursussen, community",
+    "kenmerken": [
+      "Volledig aanpasbaar",
+      "Grote symboolbibliotheek",
+      "Compatibel met veel OC-apparaten"
+    ]
+  },
+  {
+    "naam": "TD Snap",
+    "fabrikant": "Tobii Dynavox",
+    "type": "Software",
+    "platform": "iOS, Windows",
+    "licentie": "Betaald",
+    "gebruikersniveau": "Beginner tot gevorderd",
+    "ondersteuning": "myTobiiDynavox.com, live support",
+    "kenmerken": [
+      "Voorgeconfigureerde communicatiestijlen",
+      "Ondersteunt groei in taalontwikkeling",
+      "Gebruik met oogbesturing en touch"
+    ]
+  },
+  {
+    "naam": "PODD (Pragmatic Organisation Dynamic Display)",
+    "fabrikant": "Gayle Porter",
+    "type": "Software + papieren boekvorm",
+    "platform": "Grid 3, papieren vorm",
+    "licentie": "Betaald",
+    "gebruikersniveau": "Voor professionals",
+    "ondersteuning": "Training vereist",
+    "kenmerken": [
+      "Georganiseerd per pragmatische functie",
+      "Ondersteunt uitgebreide communicatie",
+      "Veel structuur"
+    ]
+  }
+]

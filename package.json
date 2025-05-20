@@ -4,10 +4,9 @@
   "homepage": "https://JiskaBeekman.github.io/OC-beslisboom",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "build": "tsc && vite build --outDir docs", 
+    "preview": "vite preview"
+   
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -17,7 +16,7 @@
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "@vitejs/plugin-react": "^4.4.1",
-    "gh-pages": "^6.3.0",
+
     "typescript": "^5.0.0",
     "vite": "^5.0.0"
   }
